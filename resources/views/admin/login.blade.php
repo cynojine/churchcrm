@@ -82,7 +82,7 @@
                     <p class="text-muted">Don't have an account? <a href="page-register.html" class="text-primary m-l-5"><b>Sign Up</b></a></p>
                 </div>
             </div>
-            
+
         </div>
         <!-- end wrapper page -->
 
@@ -98,6 +98,7 @@
         <!-- App js -->
         <script src="assets/js/jquery.core.js"></script>
         <script src="assets/js/jquery.app.js"></script>
-	
+
 	</body>
 </html>
+
