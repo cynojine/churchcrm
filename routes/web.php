@@ -13,7 +13,7 @@
 
 // Example Routes
 Route::view('/', 'landing');
-Route::match(['get', 'post'], '/login', function(){
+Route::match(['get', 'post'], 'admin/login', function(){
     return view('admin.login');
 });
 Route::view('/examples/plugin', 'examples.plugin');

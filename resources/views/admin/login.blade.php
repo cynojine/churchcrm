@@ -22,7 +22,7 @@
         <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
         <link rel="shortcut icon" href="{{ asset('media/favicons/favicon.png') }}">
         <link rel="icon" type="image/png" sizes="192x192" href="{{ asset('media/favicons/favicon-192x192.png') }}">
-        <link rel="apple-touch-icon" sizes="180x180" href={{ asset('media/favicons/apple-touch-icon-180x180.png') }}">
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('media/favicons/apple-touch-icon-180x180.png') }}">
         <!-- END Icons -->
 
         <!-- Stylesheets -->
@@ -117,11 +117,12 @@
                                 <!-- For more examples you can check out https://github.com/jzaefferer/jquery-validation -->
                                 <form class="js-validation-signin px-30" action="{{ route('login') }}" method="post">
 								@csrf
-                                    <div class="form-group row">
+                                   <div class="form-group row">
                                         <div class="col-12">
                                             <div class="form-material floating">
-                                                <input type="text" class="form-control" id="login-username" name="login-username value="{{ old('email') }}"">
-                                                <label for="login-username">Email</label>
+                                                <input type="email" class="form-control" id="signup-email" name="signup-email" value="{{ old('email') }}">
+                                                <label for="signup-email">Email</label>
+										
                                             </div>
                                         </div>
                                     </div>
@@ -130,11 +131,7 @@
                                             <div class="form-material floating">
                                                 <input type="password" class="form-control" id="login-password" name="password">
                                                 <label for="login-password">Password</label>
-												@if ($errors->has('password'))
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $errors->first('password') }}</strong>
-                                    </span>
-                                @endif
+										
                                             </div>
                                         </div>
                                     </div>
@@ -147,7 +144,7 @@
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <button type="submit" class="btn btn-sm btn-hero btn-alt-primary">
+                                        <button type="submit" class="btn btn-sm btn-hero btn-alt-primary" href="{{ route('password.request') }}">
                                             <i class="si si-login mr-10"></i> Sign In
                                         </button>
                                         <div class="mt-30">
