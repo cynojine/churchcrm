@@ -14,7 +14,7 @@
                             Welcome to Church CMS!
                         </h2>
                         <div class="invisible" data-toggle="appear" data-class="animated fadeInDown" data-timeout="300">
-                            <a class="btn btn-hero btn-noborder btn-success min-width-175 mb-10 mx-5" href="admin/login">
+                            <a class="btn btn-hero btn-noborder btn-success min-width-175 mb-10 mx-5" href="/login">
                                 <i class="fa fa-fw fa-arrow-right mr-1"></i> Enter Dashboard
                             </a>
                         </div>

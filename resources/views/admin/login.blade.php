@@ -115,12 +115,12 @@
                                 <!-- Sign In Form -->
                                 <!-- jQuery Validation functionality is initialized with .js-validation-signin class in js/pages/op_auth_signin.min.js which was auto compiled from _es6/pages/op_auth_signin.js -->
                                 <!-- For more examples you can check out https://github.com/jzaefferer/jquery-validation -->
-                                <form class="js-validation-signin px-30" action="{{ route('login') }}" method="post">
-								@csrf
+                                <form class="js-validation-signin px-30" method="post">
+								
                                    <div class="form-group row">
                                         <div class="col-12">
                                             <div class="form-material floating">
-                                                <input type="email" class="form-control" id="signup-email" name="signup-email" value="{{ old('email') }}">
+                                                <input type="email" class="form-control" id="signup-email" name="signup-email">
                                                 <label for="signup-email">Email</label>
 										
                                             </div>
@@ -144,7 +144,7 @@
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <button type="submit" class="btn btn-sm btn-hero btn-alt-primary" href="{{ route('password.request') }}">
+                                        <button type="submit" class="btn btn-sm btn-hero btn-alt-primary">
                                             <i class="si si-login mr-10"></i> Sign In
                                         </button>
                                         <div class="mt-30">

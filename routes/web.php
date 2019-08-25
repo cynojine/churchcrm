@@ -13,11 +13,8 @@
 
 // Example Routes
 Route::view('/', 'landing');
-Route::match(['get', 'post'], 'admin/login', function(){
+Route::match(['get', 'post'], '/login', function(){
     return view('admin.login');
 });
 Route::view('/examples/plugin', 'examples.plugin');
 Route::view('/examples/blank', 'examples.blank');
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
