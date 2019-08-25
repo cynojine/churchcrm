@@ -11,6 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('admin.index');
+// Example Routes
+Route::view('/', 'landing');
+Route::match(['get', 'post'], 'login', function(){
+    return view('admin.login');
 });
+Route::view('/examples/plugin', 'examples.plugin');
+Route::view('/examples/blank', 'examples.blank');
