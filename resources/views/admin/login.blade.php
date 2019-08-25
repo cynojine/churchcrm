@@ -22,7 +22,7 @@
         <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
         <link rel="shortcut icon" href="{{ asset('media/favicons/favicon.png') }}">
         <link rel="icon" type="image/png" sizes="192x192" href="{{ asset('media/favicons/favicon-192x192.png') }}">
-        <link rel="apple-touch-icon" sizes="180x180" href={{ asset('media/favicons/apple-touch-icon-180x180.png') }}">
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('media/favicons/apple-touch-icon-180x180.png') }}">
         <!-- END Icons -->
 
         <!-- Stylesheets -->
@@ -115,20 +115,23 @@
                                 <!-- Sign In Form -->
                                 <!-- jQuery Validation functionality is initialized with .js-validation-signin class in js/pages/op_auth_signin.min.js which was auto compiled from _es6/pages/op_auth_signin.js -->
                                 <!-- For more examples you can check out https://github.com/jzaefferer/jquery-validation -->
-                                <form class="js-validation-signin px-30" action="be_pages_auth_all.html" method="post">
-                                    <div class="form-group row">
+                                <form class="js-validation-signin px-30" method="post">
+								
+                                   <div class="form-group row">
                                         <div class="col-12">
                                             <div class="form-material floating">
-                                                <input type="text" class="form-control" id="login-username" name="login-username">
-                                                <label for="login-username">Username</label>
+                                                <input type="email" class="form-control" id="signup-email" name="signup-email">
+                                                <label for="signup-email">Email</label>
+										
                                             </div>
                                         </div>
                                     </div>
                                     <div class="form-group row">
                                         <div class="col-12">
                                             <div class="form-material floating">
-                                                <input type="password" class="form-control" id="login-password" name="login-password">
+                                                <input type="password" class="form-control" id="login-password" name="password">
                                                 <label for="login-password">Password</label>
+										
                                             </div>
                                         </div>
                                     </div>
