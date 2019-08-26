@@ -87,15 +87,15 @@
             <main id="main-container">
 
                 <!-- Page Content -->
-                <div class="bg-image" style="background-image: url{{ asset(('assets/media/photos/photo34@2x.jpg');) }}">
+                <div class="bg-image" style="background-image: url{{ asset('assets/media/photos/photo34@2x.jpg') }}">
                     <div class="row mx-0 bg-black-op">
                         <div class="hero-static col-md-6 col-xl-8 d-none d-md-flex align-items-md-end">
                             <div class="p-30 invisible" data-toggle="appear">
                                 <p class="font-size-h3 font-w600 text-white">
-                                    Get Inspired and Create.
+                                    Lets Get started.
                                 </p>
                                 <p class="font-italic text-white-op">
-                                    Copyright &copy; <span class="js-year-copy">2017</span>
+                                    Copyright &copy; <span class="js-year-copy">2019</span>
                                 </p>
                             </div>
                         </div>
@@ -105,7 +105,7 @@
                                 <div class="px-30 py-10">
                                     <a class="link-effect font-w700" href="index.html">
                                         <i class="si si-fire"></i>
-                                        <span class="font-size-xl text-primary-dark">code</span><span class="font-size-xl">base</span>
+                                        <span class="font-size-xl text-primary-dark">Church</span><span class="font-size-xl">CMS</span>
                                     </a>
                                     <h1 class="h3 font-w700 mt-30 mb-10">Welcome to Your Dashboard</h1>
                                     <h2 class="h5 font-w400 text-muted mb-0">Please sign in</h2>
