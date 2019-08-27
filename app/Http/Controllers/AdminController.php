@@ -28,6 +28,8 @@ class AdminController extends Controller
 	public function dashboard(){
 		if (Session::has('adminSession')){
 			//perform all dashboard task
+		}else{
+			return redirect('/admin')
 		}
 		return view('admin.dashboard');
 	}
