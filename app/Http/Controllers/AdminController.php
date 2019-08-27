@@ -29,7 +29,7 @@ class AdminController extends Controller
 		if (Session::has('adminSession')){
 			//perform all dashboard task
 		}else{
-			return redirect('/admin')->with('flash_message_error','Please Login to Access')
+			return redirect('/admin')->with('flash_message_error','Please Login to Access');
 		}
 		return view('admin.dashboard');
 	}
