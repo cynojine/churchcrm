@@ -26,6 +26,10 @@
         <!-- END Icons -->
 
         <!-- Stylesheets -->
+		
+		 <!-- Page JS Plugins CSS -->
+        <link rel="stylesheet" href="{{ asset('assets/js/plugins/slick/slick.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/js/plugins/slick/slick-theme.css') }}">
 
         <!-- Fonts and Church framework -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:300,400,400i,600,700">
@@ -73,6 +77,7 @@
 
         <!-- Page JS Plugins -->
         <script src="{{ asset('assets/js/plugins/chartjs/Chart.bundle.min.js') }}"></script>
+		 <script src="{{ asset('assets/js/plugins/slick/slick.min.js') }}"></script>
 
         <!-- Page JS Code -->
         <script src="{{ asset('assets/js/pages/be_pages_dashboard.min.js') }}"></script>
