@@ -43,6 +43,7 @@
 	
 	@include('layouts.admin.footer')
 	
+	</div>
 	        <!--
             Codebase JS Core
 
