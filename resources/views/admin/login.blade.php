@@ -115,6 +115,10 @@
                                 <!-- Sign In Form -->
                                 <!-- jQuery Validation functionality is initialized with .js-validation-signin class in js/pages/op_auth_signin.min.js which was auto compiled from _es6/pages/op_auth_signin.js -->
                                 <!-- For more examples you can check out https://github.com/jzaefferer/jquery-validation -->
+								
+								@if(session::has('flash_message_error'))
+								{!! session('flash_message_error') !!}
+								@endif
                                 <form class="js-validation-signin px-30" action="{{ url('admin') }}" method="post">@csrf
                                     <div class="form-group row">
                                         <div class="col-12">
