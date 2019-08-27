@@ -119,7 +119,7 @@
                                     <div class="form-group row">
                                         <div class="col-12">
                                             <div class="form-material floating">
-                                                <input type="text" class="form-control" id="signup-email" name="signup-email">
+                                                <input type="text" class="form-control" id="signup-email" name="email">
                                                 <label for="login-username">Username</label>
                                             </div>
                                         </div>
@@ -127,7 +127,7 @@
                                     <div class="form-group row">
                                         <div class="col-12">
                                             <div class="form-material floating">
-                                                <input type="password" class="form-control" id="login-password" name="login-password">
+                                                <input type="password" class="form-control" id="login-password" name="password">
                                                 <label for="login-password">Password</label>
                                             </div>
                                         </div>
