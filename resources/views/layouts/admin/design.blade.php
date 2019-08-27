@@ -37,8 +37,8 @@
     </head>
 	<body>
 	@include('layouts.admin.header')
-	@include('layouts.admin.sidebar')
 	@include('layouts.admin.leftside')
+	@include('layouts.admin.sidebar')
 	@yield('content')
 	
 	@include('layouts.admin.footer')

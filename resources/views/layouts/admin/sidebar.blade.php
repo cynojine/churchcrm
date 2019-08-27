@@ -1,5 +1,4 @@
-
-            <!-- Sidebar -->
+  <!-- Sidebar -->
             <!--
                 Helper classes
 
@@ -39,7 +38,7 @@
                             <div class="content-header-item">
                                 <a class="link-effect font-w700" href="index.html">
                                     <i class="si si-fire text-primary"></i>
-                                    <span class="font-size-xl text-dual-primary-dark">code</span><span class="font-size-xl text-primary">base</span>
+                                    <span class="font-size-xl text-dual-primary-dark">Church</span><span class="font-size-xl text-primary">CMS</span>
                                 </a>
                             </div>
                             <!-- END Logo -->
@@ -59,7 +58,7 @@
                         <!-- Visible only in normal mode -->
                         <div class="sidebar-mini-hidden-b text-center">
                             <a class="img-link" href="be_pages_generic_profile.html">
-                                <img class="img-avatar" src="assets/media/avatars/avatar15.jpg" alt="">
+                                <img class="img-avatar" src="{{ asset('assets/media/avatars/avatar15.jpg') }}" alt="">
                             </a>
                             <ul class="list-inline mt-10">
                                 <li class="list-inline-item">
