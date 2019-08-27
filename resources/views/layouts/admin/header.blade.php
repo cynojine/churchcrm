@@ -33,27 +33,27 @@
                                         </a>
                                     </div>
                                     <div class="col-2 mb-5">
-                                        <a class="text-elegance" data-toggle="theme" data-theme="assets/css/themes/elegance.min.css" href="javascript:void(0)">
+                                        <a class="text-elegance" data-toggle="theme" data-theme="{{ asset('assets/css/themes/elegance.min.css') }}" href="javascript:void(0)">
                                             <i class="fa fa-2x fa-circle"></i>
                                         </a>
                                     </div>
                                     <div class="col-2 mb-5">
-                                        <a class="text-pulse" data-toggle="theme" data-theme="assets/css/themes/pulse.min.css" href="javascript:void(0)">
+                                        <a class="text-pulse" data-toggle="theme" data-theme="{{ asset('assets/css/themes/pulse.min.css') }}" href="javascript:void(0)">
                                             <i class="fa fa-2x fa-circle"></i>
                                         </a>
                                     </div>
                                     <div class="col-2 mb-5">
-                                        <a class="text-flat" data-toggle="theme" data-theme="assets/css/themes/flat.min.css" href="javascript:void(0)">
+                                        <a class="text-flat" data-toggle="theme" data-theme="{{ asset('assets/css/themes/flat.min.css') }}" href="javascript:void(0)">
                                             <i class="fa fa-2x fa-circle"></i>
                                         </a>
                                     </div>
                                     <div class="col-2 mb-5">
-                                        <a class="text-corporate" data-toggle="theme" data-theme="assets/css/themes/corporate.min.css" href="javascript:void(0)">
+                                        <a class="text-corporate" data-toggle="theme" data-theme="{{ asset('assets/css/themes/corporate.min.css') }}" href="javascript:void(0)">
                                             <i class="fa fa-2x fa-circle"></i>
                                         </a>
                                     </div>
                                     <div class="col-2 mb-5">
-                                        <a class="text-earth" data-toggle="theme" data-theme="assets/css/themes/earth.min.css" href="javascript:void(0)">
+                                        <a class="text-earth" data-toggle="theme" data-theme="{{ asset('assets/css/themes/earth.min.css') }}" href="javascript:void(0)">
                                             <i class="fa fa-2x fa-circle"></i>
                                         </a>
                                     </div>
@@ -275,7 +275,7 @@
                         <!-- User Info -->
                         <div class="content-header-item">
                             <a class="img-link mr-5" href="be_pages_generic_profile.html">
-                                <img class="img-avatar img-avatar32" src="assets/media/avatars/avatar15.jpg" alt="">
+                                <img class="img-avatar img-avatar32" src="{{ asset('assets/media/avatars/avatar15.jpg') }}" alt="">
                             </a>
                             <a class="align-middle link-effect text-primary-dark font-w600" href="be_pages_generic_profile.html">John Smith</a>
                         </div>
