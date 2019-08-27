@@ -16,7 +16,7 @@
                                     <div class="row justify-content-center text-center">
                                         <div class="col-md-10 col-lg-8">
                                             <i class="si si-fire fa-4x text-primary"></i>
-                                            <h3 class="font-size-h2 font-w300 mt-20">Welcome to Codebase!</h3>
+                                            <h3 class="font-size-h2 font-w300 mt-20">Welcome to Church CMS!</h3>
                                             <p class="text-muted">
                                                 This is a modal you can show to your users when they first sign in to their dashboard. It is a great place to welcome and introduce them to your application and its functionality.
                                             </p>
