@@ -1,3 +1,6 @@
+@extands('layouts.admin.design')
+@section('content')
+
 <!-- Main Container -->
             <main id="main-container">
 
@@ -273,3 +276,5 @@
             <!-- END Footer -->
         </div>
         <!-- END Page Container -->
+		
+		@endsection
