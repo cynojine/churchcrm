@@ -122,6 +122,12 @@
 							<strong>{!! session('flash_message_error') !!}</strong>
 							</div>
 								@endif
+								@if(Session::has('flash_message_Success'))
+							<div class="alert alert-error alert-block">
+							<button type="button" class="close" data-dismiss="alert">×</button>	
+							<strong>{!! session('flash_message_success') !!}</strong>
+							</div>
+								@endif
                                 <form class="js-validation-signin px-30" action="{{ url('admin') }}" method="post">@csrf
                                     <div class="form-group row">
                                         <div class="col-12">

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Redirect;
+use Session;
 class AdminController extends Controller
 {
     //
@@ -28,6 +29,7 @@ class AdminController extends Controller
 	}
 	
 	public function logout(){
-		
+		Session::flush();
+		return redirect('/admin')->with('flash_message_success','Log Out Successful');
 	}
 }
