@@ -35,10 +35,10 @@
         <!-- <link rel="stylesheet" id="css-theme" href="assets/css/themes/flat.min.css"> -->
         <!-- END Stylesheets -->
     </head>
-	
+	<body>
 	@include('layouts.admin.header')
+	@include('layouts.admin.leftside')
 	@include('layouts.admin.sidebar')
-	
 	@yield('content')
 	
 	@include('layouts.admin.footer')
@@ -61,7 +61,7 @@
             assets/js/core/jquery.countTo.min.js
             assets/js/core/js.cookie.min.js
         -->
-        <script src="{{ asset('assets/js/codebase.core.min.js') }}"></script>
+         <script src="{{ asset('assets/js/codebase.core.min.js') }}"></script>
 
         <!--
             Codebase JS
