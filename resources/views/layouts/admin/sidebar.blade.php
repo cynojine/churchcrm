@@ -1,4 +1,17 @@
- <nav id="sidebar">
+
+            <!-- Sidebar -->
+            <!--
+                Helper classes
+
+                Adding .sidebar-mini-hide to an element will make it invisible (opacity: 0) when the sidebar is in mini mode
+                Adding .sidebar-mini-show to an element will make it visible (opacity: 1) when the sidebar is in mini mode
+                    If you would like to disable the transition, just add the .sidebar-mini-notrans along with one of the previous 2 classes
+
+                Adding .sidebar-mini-hidden to an element will hide it when the sidebar is in mini mode
+                Adding .sidebar-mini-visible to an element will show it only when the sidebar is in mini mode
+                    - use .sidebar-mini-visible-b if you would like to be a block when visible (display: block)
+            -->
+            <nav id="sidebar">
                 <!-- Sidebar Content -->
                 <div class="sidebar-content">
                     <!-- Side Header -->
@@ -46,7 +59,7 @@
                         <!-- Visible only in normal mode -->
                         <div class="sidebar-mini-hidden-b text-center">
                             <a class="img-link" href="be_pages_generic_profile.html">
-                                <img class="img-avatar" src="{{ asset('assets/media/avatars/avatar15.jpg') }} alt="">
+                                <img class="img-avatar" src="assets/media/avatars/avatar15.jpg" alt="">
                             </a>
                             <ul class="list-inline mt-10">
                                 <li class="list-inline-item">
@@ -82,13 +95,13 @@
                                         <a class="nav-submenu" data-toggle="nav-submenu" href="#"><span class="sidebar-mini-hide">Dashboards</span></a>
                                         <ul>
                                             <li>
-                                                <a href="be_pages_dashboard2.html"><span class="sidebar-mini-hide">Dashboard 2</span></a>
+                                                <a class="active" href="be_pages_dashboard2.html"><span class="sidebar-mini-hide">Dashboard 2</span></a>
                                             </li>
                                             <li>
                                                 <a href="be_pages_dashboard3.html"><span class="sidebar-mini-hide">Dashboard 3</span></a>
                                             </li>
                                             <li>
-                                                <a class="active" href="be_pages_dashboard4.html"><span class="sidebar-mini-hide">Dashboard 4</span></a>
+                                                <a href="be_pages_dashboard4.html"><span class="sidebar-mini-hide">Dashboard 4</span></a>
                                             </li>
                                         </ul>
                                     </li>
