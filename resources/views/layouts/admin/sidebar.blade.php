@@ -71,7 +71,7 @@
                                     </a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a class="link-effect text-dual-primary-dark" href="op_auth_signin.html">
+                                    <a class="link-effect text-dual-primary-dark" href="{{ url('/logout')}}">
                                         <i class="si si-logout"></i>
                                     </a>
                                 </li>
