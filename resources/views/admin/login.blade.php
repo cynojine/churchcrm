@@ -87,7 +87,7 @@
             <main id="main-container">
 
                 <!-- Page Content -->
-                <div class="bg-image" style="background-image: url{{ asset('assets/media/photos/photo34@2x.jpg') }}">
+                <div class="bg-image" style="background-image: url('assets/media/photos/photo34@2x.jpg');">
                     <div class="row mx-0 bg-black-op">
                         <div class="hero-static col-md-6 col-xl-8 d-none d-md-flex align-items-md-end">
                             <div class="p-30 invisible" data-toggle="appear">
@@ -116,8 +116,11 @@
                                 <!-- jQuery Validation functionality is initialized with .js-validation-signin class in js/pages/op_auth_signin.min.js which was auto compiled from _es6/pages/op_auth_signin.js -->
                                 <!-- For more examples you can check out https://github.com/jzaefferer/jquery-validation -->
 								
-								@if(session::has('flash_message_error'))
-								{!! session('flash_message_error') !!}
+								@if(Session::has('flash_message_error'))
+							<div class="alert alert-error alert-block">
+							<button type="button" class="close" data-dismiss="alert">×</button>	
+							<strong>{!! session('flash_message_error') !!}</strong>
+							</div>
 								@endif
                                 <form class="js-validation-signin px-30" action="{{ url('admin') }}" method="post">@csrf
                                     <div class="form-group row">
