@@ -7,11 +7,10 @@
                 <!-- Page Content -->
                 <div class="content">
                     <!-- Bootstrap Design -->
-                    <h2 class="content-heading">Bootstrap Design</h2>
+                    <h2 class="content-heading">password Change</h2>
                     <div class="row">
                         <div class="col-md-6">
-                            
-                                
+    
                         <div class="col-md-6">
                             <!-- Normal Form -->
                             <div class="block">
