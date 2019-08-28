@@ -95,15 +95,13 @@
                                     <i class="si si-fire fa-3x text-primary"></i>
                                 </div>
                                 <h1 class="font-w600 display-3 invisible mb-10" data-toggle="appear">
-                                    codebase <small class="font-w300 text-primary">3.0</small>
+                                    Church CMS <small class="font-w300 text-primary">1.0</small>
                                 </h1>
-                                <h2 class="h3 font-w300 text-muted mb-50 invisible" data-toggle="appear" data-timeout="150">Next generation, multipurpose UI framework.</h2>
+                                <h2 class="h3 font-w300 text-muted mb-50 invisible" data-toggle="appear" data-timeout="150">Manageing your Church never got Easyer .</h2>
                                 <div class="invisible" data-toggle="appear" data-timeout="300">
-                                    <a class="btn btn-hero btn-noborder btn-success min-width-175 mb-10 mx-5" href="https://1.envato.market/95j">
-                                        <i class="si si-bag mr-5"></i> Purchase
-                                    </a>
-                                    <a class="btn btn-hero btn-noborder btn-primary min-width-175 mb-10 mx-5" href="be_pages_dashboard.html">
-                                        <i class="si si-rocket mr-5"></i> Live Preview
+                                    
+                                    <a class="btn btn-hero btn-noborder btn-primary min-width-175 mb-10 mx-5" href="/admin">
+                                        <i class="si si-rocket mr-5"></i> Go to Dashboard
                                     </a>
                                 </div>
                             </div>
@@ -116,11 +114,11 @@
                     <div class="content content-full text-center overflow-hidden">
                         <div class="py-100">
                             <h3 class="font-w700 mb-10">
-                                Crafted with <i class="fa fa-heart text-danger"></i> by <a class="link-effect" href="https://1.envato.market/ydb">pixelcave</a>
+                                Crafted with <i class="fa fa-heart text-danger"></i> by <a class="link-effect" href="https://cynojine.com">Cynojine</a>
                             </h3>
-                            <h4 class="font-w400 text-muted mb-30">Passionate web design and development with over 12.000 customers worldwide.</h4>
-                            <a class="btn btn-hero btn-lg btn-noborder btn-rounded btn-alt-success mb-10 invisible" data-toggle="appear" data-class="animated zoomIn" href="https://1.envato.market/95j">
-                                <i class="fa fa-shopping-bag mr-10"></i> Purchase Codebase
+                            <h4 class="font-w400 text-muted mb-30">awesomeness.</h4>
+                            <a class="btn btn-hero btn-lg btn-noborder btn-rounded btn-alt-success mb-10 invisible" data-toggle="appear" data-class="animated zoomIn" href="https://cynojine.com">
+                                <i class="fa fa-shopping-bag mr-10"></i> Church
                             </a>
                         </div>
                     </div>
