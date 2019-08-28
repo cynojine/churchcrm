@@ -87,14 +87,12 @@
             <main id="main-container">
 
                 <!-- Hero -->
-                <div class="row no-gutters hero-static">
-                    <div class="col-xl-8 d-flex bg-gd-light hero-static">
-                        <div class="content content-full d-flex align-items-center text-center">
-                            <div class="w-100 px-20 py-100">
-                                <div class="animated fadeIn mb-10" data-toggle="appear">
-                                    <i class="si si-fire fa-3x text-primary"></i>
-                                </div>
-                                <h1 class="font-w600 display-3 invisible mb-10" data-toggle="appear">
+                <div class="bg-image" style="background-image: url('assets/media/photos/bg_hero_landing.jpg');">
+        <div class="hero bg-white-op-90 overflow-hidden">
+            <div class="hero-inner">
+                <div class="content content-full text-center">
+                    <div class="pt-100 pb-150">
+                        <h1 class="font-w700 display-4 mt-20 invisible" data-toggle="appear" data-timeout="50">
                                     Church CMS <small class="font-w300 text-primary">1.0</small>
                                 </h1>
                                 <h2 class="h3 font-w300 text-muted mb-50 invisible" data-toggle="appear" data-timeout="150">Manageing your Church never got Easyer .</h2>
@@ -107,23 +105,7 @@
                             </div>
                         </div>
                     </div>
-                 
-
-                <!-- Call to Action -->
-                <div class="bg-white">
-                    <div class="content content-full text-center overflow-hidden">
-                        <div class="py-100">
-                            <h3 class="font-w700 mb-10">
-                                Crafted with <i class="fa fa-heart text-danger"></i> by <a class="link-effect" href="https://cynojine.com">Cynojine</a>
-                            </h3>
-                            <h4 class="font-w400 text-muted mb-30">awesomeness.</h4>
-                            <a class="btn btn-hero btn-lg btn-noborder btn-rounded btn-alt-success mb-10 invisible" data-toggle="appear" data-class="animated zoomIn" href="https://cynojine.com">
-                                <i class="fa fa-shopping-bag mr-10"></i> Church
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- END Call to Action -->
+                
 
             </main>
             <!-- END Main Container -->
