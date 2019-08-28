@@ -25,11 +25,15 @@
                                 <div class="block-content">
                                     <form action="be_forms_elements_bootstrap.html" method="post" onsubmit="return false;">
                                         <div class="form-group">
-                                            <label for="example-nf-password">Password</label>
+                                            <label for="example-nf-password">Old Password</label>
                                             <input type="email" class="form-control" id="example-nf-email" name="example-nf-email" placeholder="Enter Email..">
                                         </div>
                                         <div class="form-group">
-                                            <label for="example-nf-password">Password</label>
+                                            <label for="example-nf-password">New Password</label>
+                                            <input type="password" class="form-control" id="example-nf-password" name="example-nf-password" placeholder="Enter Password..">
+                                        </div
+										<div class="form-group">
+                                            <label for="example-nf-password">Comfirm Password</label>
                                             <input type="password" class="form-control" id="example-nf-password" name="example-nf-password" placeholder="Enter Password..">
                                         </div>
                                         <div class="form-group">
