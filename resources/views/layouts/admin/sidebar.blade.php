@@ -597,136 +597,15 @@
                             </li>
                             <li class="nav-main-heading"><span class="sidebar-mini-visible">PG</span><span class="sidebar-mini-hidden">Pages</span></li>
                             <li>
-                                <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-globe-alt"></i><span class="sidebar-mini-hide">Generic</span></a>
+                                <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-globe-alt"></i><span class="sidebar-mini-hide">Settings</span></a>
                                 <ul>
                                     <li>
-                                        <a href="be_pages_generic_blank.html">Blank</a>
+                                        <a href="{{ url('/admin/settings') }}">Settings</a>
                                     </li>
                                     <li>
                                         <a href="be_pages_generic_blank_block.html">Blank (Block)</a>
                                     </li>
-                                    <li>
-                                        <a href="be_pages_generic_blank_breadcrumb.html">Blank (Breadcrumb)</a>
-                                    </li>
-                                    <li>
-                                        <a href="be_pages_generic_scrumboard.html">Scrum Board</a>
-                                    </li>
-                                    <li>
-                                        <a href="be_pages_generic_search.html">Search</a>
-                                    </li>
-                                    <li>
-                                        <a href="be_pages_generic_profile.html">Profile</a>
-                                    </li>
-                                    <li>
-                                        <a href="be_pages_generic_inbox.html">Inbox</a>
-                                    </li>
-                                    <li>
-                                        <a href="be_pages_generic_invoice.html">Invoice</a>
-                                    </li>
-                                    <li>
-                                        <a href="be_pages_generic_faq.html">FAQ</a>
-                                    </li>
-                                    <li>
-                                        <a href="be_pages_generic_blog.html">Blog</a>
-                                    </li>
-                                    <li>
-                                        <a href="be_pages_generic_story.html">Story</a>
-                                    </li>
-                                    <li>
-                                        <a href="be_pages_generic_project_list.html">Project List</a>
-                                    </li>
-                                    <li>
-                                        <a href="be_pages_generic_project.html">Project</a>
-                                    </li>
-                                    <li>
-                                        <a href="be_pages_generic_upgrade_plan.html">Upgrade Plan</a>
-                                    </li>
-                                    <li>
-                                        <a href="be_pages_generic_team.html">Team</a>
-                                    </li>
-                                    <li>
-                                        <a href="be_pages_generic_contact.html">Contact</a>
-                                    </li>
-                                    <li>
-                                        <a href="be_pages_generic_todo.html">Todo</a>
-                                    </li>
-                                    <li>
-                                        <a href="op_coming_soon.html">Coming Soon</a>
-                                    </li>
-                                    <li>
-                                        <a href="op_maintenance.html">Maintenance</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-lock"></i><span class="sidebar-mini-hide">Authentication</span></a>
-                                <ul>
-                                    <li>
-                                        <a href="be_pages_auth_all.html">All</a>
-                                    </li>
-                                    <li>
-                                        <a href="op_auth_signin.html">Sign In</a>
-                                    </li>
-                                    <li>
-                                        <a href="op_auth_signin2.html">Sign In 2</a>
-                                    </li>
-                                    <li>
-                                        <a href="op_auth_signin3.html">Sign In 3</a>
-                                    </li>
-                                    <li>
-                                        <a href="op_auth_signup.html">Sign Up</a>
-                                    </li>
-                                    <li>
-                                        <a href="op_auth_signup2.html">Sign Up 2</a>
-                                    </li>
-                                    <li>
-                                        <a href="op_auth_signup3.html">Sign Up 3</a>
-                                    </li>
-                                    <li>
-                                        <a href="op_auth_lock.html">Lock Screen</a>
-                                    </li>
-                                    <li>
-                                        <a href="op_auth_lock2.html">Lock Screen 2</a>
-                                    </li>
-                                    <li>
-                                        <a href="op_auth_lock3.html">Lock Screen 3</a>
-                                    </li>
-                                    <li>
-                                        <a href="op_auth_reminder.html">Pass Reminder</a>
-                                    </li>
-                                    <li>
-                                        <a href="op_auth_reminder2.html">Pass Reminder 2</a>
-                                    </li>
-                                    <li>
-                                        <a href="op_auth_reminder3.html">Pass Reminder 3</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-flag"></i><span class="sidebar-mini-hide">Error</span></a>
-                                <ul>
-                                    <li>
-                                        <a href="be_pages_error_all.html">All</a>
-                                    </li>
-                                    <li>
-                                        <a href="op_error_400.html">400</a>
-                                    </li>
-                                    <li>
-                                        <a href="op_error_401.html">401</a>
-                                    </li>
-                                    <li>
-                                        <a href="op_error_403.html">403</a>
-                                    </li>
-                                    <li>
-                                        <a href="op_error_404.html">404</a>
-                                    </li>
-                                    <li>
-                                        <a href="op_error_500.html">500</a>
-                                    </li>
-                                    <li>
-                                        <a href="op_error_503.html">503</a>
-                                    </li>
-                                </ul>
+                                    
                             </li>
                         </ul>
                     </div>
