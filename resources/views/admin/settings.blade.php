@@ -18,13 +18,14 @@
                                     <!-- jQuery Validation functionality is initialized in js/pages/be_forms_validation.min.js which was auto compiled from _es6/pages/be_forms_validation.js -->
                                     <!-- For more info and examples you can check out https://github.com/jzaefferer/jquery-validation -->
                                     <form class="js-validation-bootstrap" action="be_forms_validation.html" method="post">
-                                       
                                         <div class="form-group row">
                                             <label class="col-lg-4 col-form-label" for="val-password">Old Password <span class="text-danger">*</span></label>
                                             <div class="col-lg-8">
                                                 <input type="password" class="form-control" id="val-password" name="val-password" placeholder="Choose a safe one..">
                                             </div>
-											<div class="form-group row">
+                                        </div>
+                                      
+                                        <div class="form-group row">
                                             <label class="col-lg-4 col-form-label" for="val-password">New Password <span class="text-danger">*</span></label>
                                             <div class="col-lg-8">
                                                 <input type="password" class="form-control" id="val-password" name="val-password" placeholder="Choose a safe one..">
