@@ -19,16 +19,16 @@
                                     <!-- For more info and examples you can check out https://github.com/jzaefferer/jquery-validation -->
                                     <form class="js-validation-bootstrap" action="be_forms_validation.html" method="post">
                                         <div class="form-group row">
-                                            <label class="col-lg-4 col-form-label" for="val-password">Old Password <span class="text-danger">*</span></label>
+                                            <label class="col-lg-4 col-form-label" for="val-old-password">Old Password <span class="text-danger">*</span></label>
                                             <div class="col-lg-8">
-                                                <input type="password" class="form-control" id="val-password" name="val-password" placeholder="Choose a safe one..">
+                                                <input type="password" class="form-control" id="val-old-password" name="val-old-password" placeholder="Choose a safe one..">
                                             </div>
                                         </div>
                                       
                                         <div class="form-group row">
-                                            <label class="col-lg-4 col-form-label" for="val-password">New Password <span class="text-danger">*</span></label>
+                                            <label class="col-lg-4 col-form-label" for="val-new-password">New Password <span class="text-danger">*</span></label>
                                             <div class="col-lg-8">
-                                                <input type="password" class="form-control" id="val-password" name="val-password" placeholder="Choose a safe one..">
+                                                <input type="password" class="form-control" id="val-new-password" name="val-password" placeholder="Choose a safe one..">
                                             </div>
                                         </div>
                                         <div class="form-group row">
