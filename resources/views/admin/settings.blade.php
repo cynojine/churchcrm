@@ -28,7 +28,7 @@
                                         <div class="form-group row">
                                             <label class="col-lg-4 col-form-label" for="val-new-password">New Password <span class="text-danger">*</span></label>
                                             <div class="col-lg-8">
-                                                <input type="password" class="form-control" id="val-new-password" name="val-password" placeholder="Choose a safe one..">
+                                                <input type="password" class="form-control" id="val-new-password" name="val-new-password" placeholder="Choose a safe one..">
                                             </div>
                                         </div>
                                         <div class="form-group row">
