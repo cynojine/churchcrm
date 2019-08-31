@@ -26,6 +26,27 @@
 		// Remove punctuation
 		.replace( /[.(),;:!?%#$'\"_+=\/\-“”’]*/g, "" );
 	}
+	
+	$(document).ready(function(){
+
+	$("#val_new_password").keyup(function(){
+		var val_old_password = $("#val_old_password").val();
+		$.ajax({
+			type:'get',
+			url:'/admin/check-pwd',
+			data:{val_old_password:val_old_password},
+			success:function(resp){
+				//alert(resp);
+				if(resp=="false"){
+					$("#chkPwd").html("<font color='red'>Current Password is Incorrect</font>");
+				}else if(resp=="true"){
+					$("#chkPwd").html("<font color='green'>Current Password is Correct</font>");
+				}
+			},error:function(){
+				alert("Error");
+			}
+		});
+	});
 
 	$.validator.addMethod( "maxWords", function( value, element, params ) {
 		return this.optional( element ) || stripHtml( value ).match( /\b\w+\b/g ).length <= params;

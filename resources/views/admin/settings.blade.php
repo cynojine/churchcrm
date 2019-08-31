@@ -17,7 +17,7 @@
                                 <div class="col-xl-6">
                                     <!-- jQuery Validation functionality is initialized in js/pages/be_forms_validation.min.js which was auto compiled from _es6/pages/be_forms_validation.js -->
                                     <!-- For more info and examples you can check out https://github.com/jzaefferer/jquery-validation -->
-                                    <form class="js-validation-bootstrap" action="{{ url('/admin/update-pwd') }}" method="post">@csrf
+                                    <form class="js-validation-bootstrap" action="{{ url('/admin/update-pwd') }}" method="update">{{ csrf_field() }}
                                         <div class="form-group row">
                                             <label class="col-lg-4 col-form-label" for="val-old-password">Old Password <span class="text-danger">*</span></label>
                                             <div class="col-lg-8">
