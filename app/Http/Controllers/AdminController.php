@@ -6,6 +6,9 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Redirect;
 use Session;
+use Auth;
+use App\User;
+use Illuminate\Support\Facades\Hash;
 class AdminController extends Controller
 {
     //
@@ -40,9 +43,9 @@ class AdminController extends Controller
 	
 	public function chkpassword(Request $request){
 		$data = $request->all();
-		$val-old-password = $data['val-old-password'];
+		$val_old_password = $data['val_old_password'];
 		$check_password = User::where(['admin'=>'1'])->first();
-		if(Hash::check($val-old-password,$check_password->password)){
+		if(Hash::check($val_old_password,$check_password->password)){
 			echo "true"; die;
 		}else {
 			echo "false"; die;
