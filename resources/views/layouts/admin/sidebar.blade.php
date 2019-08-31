@@ -122,15 +122,15 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="nav-main-heading"><span class="sidebar-mini-visible">Church</span><span class="sidebar-mini-hidden">Leaders</span></li>
+                            <li class="nav-main-heading"><span class="sidebar-mini-visible">Church</span><span class="sidebar-mini-hidden">Attendance</span></li>
                             <li>
-                                <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-puzzle"></i><span class="sidebar-mini-hide">Blocks</span></a>
+                                <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-puzzle"></i><span class="sidebar-mini-hide">Church Attendance</span></a>
                                 <ul>
                                     <li>
-                                        <a href="be_blocks.html">Styles</a>
+                                        <a href="be_blocks.html">Add Attendance</a>
                                     </li>
                                     <li>
-                                        <a href="be_blocks_tiles.html">Tiles</a>
+                                        <a href="be_blocks_tiles.html">List Attendance</a>
                                     </li>
                                     <li>
                                         <a href="be_blocks_draggable.html">Draggable</a>
