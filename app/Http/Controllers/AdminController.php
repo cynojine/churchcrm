@@ -6,7 +6,6 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Redirect;
 use Session;
-use Auth;
 use App\User;
 use Illuminate\Support\Facades\Hash;
 class AdminController extends Controller

@@ -17,11 +17,12 @@
                                 <div class="col-xl-6">
                                     <!-- jQuery Validation functionality is initialized in js/pages/be_forms_validation.min.js which was auto compiled from _es6/pages/be_forms_validation.js -->
                                     <!-- For more info and examples you can check out https://github.com/jzaefferer/jquery-validation -->
-                                    <form class="js-validation-bootstrap" action="" method="post">
+                                    <form class="js-validation-bootstrap" action="#" method="post">
                                         <div class="form-group row">
                                             <label class="col-lg-4 col-form-label" for="val-old-password">Old Password <span class="text-danger">*</span></label>
                                             <div class="col-lg-8">
                                                 <input type="password" class="form-control" id="val_old_password" name="val_old_password" placeholder="Choose a safe one..">
+												<span id="chkPwd"></span>
                                             </div>
                                         </div>
                                       
@@ -34,7 +35,7 @@
                                         <div class="form-group row">
                                             <label class="col-lg-4 col-form-label" for="val_confirm_password">Confirm Password <span class="text-danger">*</span></label>
                                             <div class="col-lg-8">
-                                                <input type="password" class="form-control" id="val_confirm_password" name="val_confirm_password" placeholder="..and confirm it!">
+                                                <input type="password" class="form-control" id="val_confirm_password" name="val_new_password" placeholder="..and confirm it!">
                                             </div>
                                        
                                         <div class="form-group row">
