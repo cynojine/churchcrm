@@ -51,6 +51,22 @@ class AdminController extends Controller
 		}
 	}
 	
+	public function updatePassword(Request $request){
+        if($request->isMethod('post')){
+            $data = $request->all();
+            //echo "<pre>"; print_r($data); die;
+            $check_password = User::where(['email' => Auth::user()->email])->first();
+            $val_old_password = $data['val_old_password'];
+            if(Hash::check($val_old_password,$check_password->password)){
+                $password = bcrypt($data['val_new_password']);
+                User::where('id','1')->update(['password'=>$password]);
+                return redirect('/admin/settings')->with('flash_message_success','Password updated Successfully!');
+            }else {
+                return redirect('/admin/settings')->with('flash_message_error','Incorrect Current Password!');
+            }
+        }
+    }
+	
 	public function logout(){
 		Session::flush();
 		return redirect('/admin')->with('flash_message_success','Log Out Successful');
