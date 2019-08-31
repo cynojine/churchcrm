@@ -26,7 +26,9 @@
         <!-- END Icons -->
 
         <!-- Stylesheets -->
-		
+		 <!-- Page JS Plugins CSS -->
+        <link rel="stylesheet" href="{{ asset('assets/js/plugins/select2/css/select2.css') }}">
+
 		 <!-- Page JS Plugins CSS -->
         <link rel="stylesheet" href="{{ asset('assets/js/plugins/slick/slick.css') }}">
         <link rel="stylesheet" href="{{ asset('assets/js/plugins/slick/slick-theme.css') }}">
@@ -81,6 +83,17 @@
 
         <!-- Page JS Code -->
         <script src="{{ asset('assets/js/pages/be_pages_dashboard.min.js') }}"></script>
+		
+		<!-- Page JS Plugins -->
+        <script src="{{ asset('assets/js/plugins/select2/js/select2.full.min.js') }}"></script>
+        <script src="{{ asset('assets/js/plugins/jquery-validation/jquery.validate.min.js') }}"></script>
+        <script src="{{ asset('assets/js/plugins/jquery-validation/additional-methods.js') }}"></script>
+
+        <!-- Page JS Helpers (Select2 plugin) -->
+        <script>jQuery(function(){ Codebase.helpers('select2'); });</script>
+
+        <!-- Page JS Code -->
+        <script src="{{ asset('assets/js/pages/be_forms_validation.min.js') }}"></script>
 
     </body>
 </html>

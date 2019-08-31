@@ -1,62 +1,56 @@
 @extends('layouts.admin.design')
 @section('content')
 
-            <!-- Main Container -->
-            <main id="main-container">
-
-                <!-- Page Content -->
-                <div class="content">
-                    <!-- Bootstrap Design -->
-                    <h2 class="content-heading">password Change</h2>
-                    <div class="row">
-                        <div class="col-md-6">
-    
-                        <div class="col-md-6">
-                            <!-- Normal Form -->
-                            <div class="block">
-                                <div class="block-header block-header-default">
-                                    <h3 class="block-title">Normal Form</h3>
-                                    <div class="block-options">
-                                        <button type="button" class="btn-block-option">
-                                            <i class="si si-wrench"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="block-content">
-                                    <form action="be_forms_elements_bootstrap.html" method="post" onsubmit="return false;">
-                                        <div class="form-group">
-                                            <label for="example-nf-password">Old Password</label>
-                                            <input type="email" class="form-control" id="example-nf-email" name="example-nf-email" placeholder="Enter Email..">
+<!-- Bootstrap Forms Validation -->
+                    <h2 class="content-heading">Bootstrap Forms</h2>
+                    <div class="block">
+                        <div class="block-header block-header-default">
+                            <h3 class="block-title">Validation</h3>
+                            <div class="block-options">
+                                <button type="button" class="btn-block-option">
+                                    <i class="si si-wrench"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="block-content">
+                            <div class="row justify-content-center py-20">
+                                <div class="col-xl-6">
+                                    <!-- jQuery Validation functionality is initialized in js/pages/be_forms_validation.min.js which was auto compiled from _es6/pages/be_forms_validation.js -->
+                                    <!-- For more info and examples you can check out https://github.com/jzaefferer/jquery-validation -->
+                                    <form class="js-validation-bootstrap" action="be_forms_validation.html" method="post">
+                                        <div class="form-group row">
+                                            <label class="col-lg-4 col-form-label" for="val-old-password">Old Password <span class="text-danger">*</span></label>
+                                            <div class="col-lg-8">
+                                                <input type="password" class="form-control" id="val-old-password" name="val-old-password" placeholder="Choose a safe one..">
+                                            </div>
                                         </div>
-                                        <div class="form-group">
-                                            <label for="example-nf-password">New Password</label>
-                                            <input type="password" class="form-control" id="example-nf-password" name="example-nf-password" placeholder="Enter Password..">
-                                        </div
-										<div class="form-group">
-                                            <label for="example-nf-password">Comfirm Password</label>
-                                            <input type="password" class="form-control" id="example-nf-password" name="example-nf-password" placeholder="Enter Password..">
+                                      
+                                        <div class="form-group row">
+                                            <label class="col-lg-4 col-form-label" for="val-new-password">New Password <span class="text-danger">*</span></label>
+                                            <div class="col-lg-8">
+                                                <input type="password" class="form-control" id="val-new-password" name="val-new-password" placeholder="Choose a safe one..">
+                                            </div>
                                         </div>
-                                        <div class="form-group">
-                                            <button type="submit" class="btn btn-alt-primary">Update</button>
+                                        <div class="form-group row">
+                                            <label class="col-lg-4 col-form-label" for="val-confirm-password">Confirm Password <span class="text-danger">*</span></label>
+                                            <div class="col-lg-8">
+                                                <input type="password" class="form-control" id="val-confirm-password" name="val-confirm-password" placeholder="..and confirm it!">
+                                            </div>
+                                       
+                                        <div class="form-group row">
+                                            <div class="col-lg-8 ml-auto">
+                                                <button type="submit" class="btn btn-alt-primary">Submit</button>
+                                            </div>
                                         </div>
                                     </form>
                                 </div>
                             </div>
-                            <!-- END Normal Form -->
 
-                                                        
-                                    </form>
-                                </div>
-                            </div>
-                            <!-- END Dropdown Groups -->
                         </div>
                     </div>
-                    <!-- END Bootstrap Design -->
-                </div>
-                <!-- END Page Content -->
+                    <!-- Bootstrap Forms Validation -->
 
-            </main>
-            <!-- END Main Container -->
-        </div>
+                    <!-- END Material Forms Validation -->
+
 
 		@endsection
