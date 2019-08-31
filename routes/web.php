@@ -21,6 +21,7 @@ Route::get('/logout','AdminController@logout');
 Route::group(['middleware' => ['auth']],function(){
 	Route::get('/admin/dashboard','AdminController@dashboard');
 	Route::get('/admin/settings','AdminController@settings');
+	Route::get('/admin/check-pwd','AdminController@chkpassword');
 });
 
 

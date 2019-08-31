@@ -38,6 +38,17 @@ class AdminController extends Controller
 		return view('admin.settings');
 	}
 	
+	public function chkpassword(Request $request){
+		$data = $request->all();
+		$val-old-password = $data['val-old-password'];
+		$check_password = User::where(['admin'=>'1'])->first();
+		if(Hash::check($val-old-password,$check_password->password)){
+			echo "true"; die;
+		}else {
+			echo "false"; die;
+		}
+	}
+	
 	public function logout(){
 		Session::flush();
 		return redirect('/admin')->with('flash_message_success','Log Out Successful');
