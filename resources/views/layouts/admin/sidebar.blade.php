@@ -106,49 +106,23 @@
                                     </li>
                                     
                                     <li>
-                                        <a class="nav-submenu" data-toggle="nav-submenu" href="#"><span class="sidebar-mini-hide">Boxed Backend</span></a>
+                                        <a class="nav-submenu" data-toggle="nav-submenu" href="#"><span class="sidebar-mini-hide">Church Groups</span></a>
                                         <ul>
                                             <li>
-                                                <a href="bd_dashboard.html">Dashboard</a>
+                                                <a href="bd_dashboard.html">Add Groups</a>
                                             </li>
                                             <li>
-                                                <a href="bd_search.html">Search</a>
+                                                <a href="bd_search.html">Groups List</a>
                                             </li>
                                             <li>
-                                                <a href="bd_variations_hero_simple_1.html">Hero Simple 1</a>
+                                                <a href="bd_variations_hero_simple_1.html">Report</a>
                                             </li>
-                                            <li>
-                                                <a href="bd_variations_hero_simple_2.html">Hero Simple 2</a>
-                                            </li>
-                                            <li>
-                                                <a href="bd_variations_hero_simple_3.html">Hero Simple 3</a>
-                                            </li>
-                                            <li>
-                                                <a href="bd_variations_hero_simple_4.html">Hero Simple 4</a>
-                                            </li>
-                                            <li>
-                                                <a href="bd_variations_hero_image_1.html">Hero Image 1</a>
-                                            </li>
-                                            <li>
-                                                <a href="bd_variations_hero_image_2.html">Hero Image 2</a>
-                                            </li>
-                                            <li>
-                                                <a href="bd_variations_hero_image_3.html">Hero Image 3</a>
-                                            </li>
-                                            <li>
-                                                <a href="bd_variations_hero_image_4.html">Hero Image 4</a>
-                                            </li>
-                                            <li>
-                                                <a href="bd_variations_hero_video_1.html">Hero Video 1</a>
-                                            </li>
-                                            <li>
-                                                <a href="bd_variations_hero_video_2.html">Hero Video 2</a>
-                                            </li>
+                                            
                                         </ul>
                                     </li>
                                 </ul>
                             </li>
-                            <li class="nav-main-heading"><span class="sidebar-mini-visible">UI</span><span class="sidebar-mini-hidden">User Interface</span></li>
+                            <li class="nav-main-heading"><span class="sidebar-mini-visible">Church</span><span class="sidebar-mini-hidden">Groups</span></li>
                             <li>
                                 <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-puzzle"></i><span class="sidebar-mini-hide">Blocks</span></a>
                                 <ul>
