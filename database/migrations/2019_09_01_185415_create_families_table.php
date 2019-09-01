@@ -17,6 +17,7 @@ class CreateFamiliesTable extends Migration
             $table->bigIncrements('id');
 			$table->integer('parent_id');
 			$table->string('family_name');
+			$table->text('discription');
 			$table->tinyInteger('status');
 			$table->rememberToken();
             $table->timestamps();
