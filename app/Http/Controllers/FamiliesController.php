@@ -8,6 +8,6 @@ class FamiliesController extends Controller
 {
     //
 	public function addFamilies(){
-		return view('')
+		return view('admin.families.add_families');
 	}
 }
