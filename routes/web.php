@@ -21,6 +21,9 @@ Route::get('/logout','AdminController@logout');
 Route::group(['middleware' => ['auth']],function(){
 	Route::get('/admin/dashboard','AdminController@dashboard');
 	Route::get('/admin/settings','AdminController@settings');
+	
+	//fafilies route admin
+Route::match(['get','post'],'/admin/add-families','FamiliesController@addFamilies');
 
 });
 
