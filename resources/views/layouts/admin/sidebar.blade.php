@@ -171,27 +171,7 @@
                                     <li>
                                         <a href="be_ui_buttons.html">Gifts Report</a>
                                     </li>
-                                    <li>
-                                        <a href="be_ui_navigation.html">Navigation</a>
-                                    </li>
-                                    <li>
-                                        <a href="be_ui_tabs.html">Tabs</a>
-                                    </li>
-                                    <li>
-                                        <a href="be_ui_modals_tooltips.html">Modals &amp; Tooltips</a>
-                                    </li>
-                                    <li>
-                                        <a href="be_ui_images.html">Images</a>
-                                    </li>
-                                    <li>
-                                        <a href="be_ui_animations.html">Animations</a>
-                                    </li>
-                                    <li>
-                                        <a href="be_ui_ribbons.html">Ribbons</a>
-                                    </li>
-                                    <li>
-                                        <a href="be_ui_timeline.html">Timeline</a>
-                                    </li>
+
                                     <li>
                                         <a href="be_ui_accordion.html">Accordion</a>
                                     </li>
@@ -201,24 +181,8 @@
                                 </ul>
                             </li>
                             <li>
-                                <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-layers"></i><span class="sidebar-mini-hide">Tables</span></a>
-                                <ul>
-                                    <li>
-                                        <a href="be_tables_styles.html">Styles</a>
-                                    </li>
-                                    <li>
-                                        <a href="be_tables_responsive.html">Responsive</a>
-                                    </li>
-                                    <li>
-                                        <a href="be_tables_helpers.html">Helpers</a>
-                                    </li>
-                                    <li>
-                                        <a href="be_tables_pricing.html">Pricing</a>
-                                    </li>
-                                    <li>
-                                        <a href="be_tables_datatables.html">DataTables</a>
-                                    </li>
-                                </ul>
+                                <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-layers"></i><span class="sidebar-mini-hide">Mail</span></a>
+                               
                             </li>
                             <li>
                                 <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-note"></i><span class="sidebar-mini-hide">Forms</span></a>
