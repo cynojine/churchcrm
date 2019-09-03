@@ -210,10 +210,10 @@
                                                 <a href="be_layout_default.html">Families</a>
                                             </li>
                                             <li>
-                                                <a href="be_layout_flipped.html">Flipped</a>
+                                                <a href="be_layout_flipped.html">Groups</a>
                                             </li>
                                             <li>
-                                                <a href="be_layout_native_scrolling.html">Native Scrolling</a>
+                                                <a href="be_layout_native_scrolling.html">Sunday School</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -224,7 +224,7 @@
                                 </ul>
                             </li>
                             
-                            <li class="nav-main-heading"><span class="sidebar-mini-visible">PG</span><span class="sidebar-mini-hidden">Admin </span></li>
+                            <li class="nav-main-heading"><span class="sidebar-mini-visible">PG</span><span class="sidebar-mini-hidden">Admin Settings</span></li>
                             <li>
                                 <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-globe-alt"></i><span class="sidebar-mini-hide">Settings</span></a>
                                 <ul>
