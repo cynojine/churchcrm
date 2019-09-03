@@ -219,99 +219,12 @@
                                     </li>
                                    
                                     <li>
-                                        <a href="be_layout_api.html">API</a>
+                                        <a href="be_layout_api.html">Collection Report</a>
                                     </li>
                                 </ul>
                             </li>
-                            <li>
-                                <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-trophy"></i><span class="sidebar-mini-hide">Components</span></a>
-                                <ul>
-                                    <li>
-                                        <a class="nav-submenu" data-toggle="nav-submenu" href="#"><span class="sidebar-mini-hide">Main Menu</span></a>
-                                        <ul>
-                                            <li>
-                                                <a href="#">Link 1-1</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Link 1-2</a>
-                                            </li>
-                                            <li>
-                                                <a class="nav-submenu" data-toggle="nav-submenu" href="#">Sub Level 2</a>
-                                                <ul>
-                                                    <li>
-                                                        <a href="#">Link 2-1</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">Link 2-2</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="nav-submenu" data-toggle="nav-submenu" href="#">Sub Level 3</a>
-                                                        <ul>
-                                                            <li>
-                                                                <a href="#">Link 3-1</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">Link 3-2</a>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a class="nav-submenu" data-toggle="nav-submenu" href="#">Chat</a>
-                                        <ul>
-                                            <li>
-                                                <a href="be_comp_chat_multiple.html">Multiple</a>
-                                            </li>
-                                            <li>
-                                                <a href="be_comp_chat_single.html">Single</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="be_comp_charts.html">Charts</a>
-                                    </li>
-                                    <li>
-                                        <a href="be_comp_gallery.html">Gallery</a>
-                                    </li>
-                                    <li>
-                                        <a href="be_comp_sliders.html">Sliders</a>
-                                    </li>
-                                    <li>
-                                        <a href="be_comp_scrolling.html">Scrolling</a>
-                                    </li>
-                                    <li>
-                                        <a href="be_comp_rating.html">Rating</a>
-                                    </li>
-                                    <li>
-                                        <a href="be_comp_filtering.html">Filtering</a>
-                                    </li>
-                                    <li>
-                                        <a href="be_comp_appear.html">Appear</a>
-                                    </li>
-                                    <li>
-                                        <a href="be_comp_countto.html">CountTo</a>
-                                    </li>
-                                    <li>
-                                        <a href="be_comp_calendar.html">Calendar</a>
-                                    </li>
-                                    <li>
-                                        <a href="be_comp_image_cropper.html">Image Cropper</a>
-                                    </li>
-                                    <li>
-                                        <a href="be_comp_maps_google.html">Google Maps</a>
-                                    </li>
-                                    <li>
-                                        <a href="be_comp_maps_vector.html">Vector Maps</a>
-                                    </li>
-                                    <li>
-                                        <a href="be_comp_syntax_highlighting.html">Syntax Highlighting</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-main-heading"><span class="sidebar-mini-visible">PG</span><span class="sidebar-mini-hidden">Pages</span></li>
+                            
+                            <li class="nav-main-heading"><span class="sidebar-mini-visible">PG</span><span class="sidebar-mini-hidden">Admin </span></li>
                             <li>
                                 <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-globe-alt"></i><span class="sidebar-mini-hide">Settings</span></a>
                                 <ul>
