@@ -185,32 +185,18 @@
                                
                             </li>
                             <li>
-                                <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-note"></i><span class="sidebar-mini-hide">Forms</span></a>
+                                <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-note"></i><span class="sidebar-mini-hide">Events</span></a>
                                 <ul>
                                     <li>
-                                        <a href="be_forms_elements_bootstrap.html">Bootstrap Elements</a>
+                                        <a href="be_forms_elements_bootstrap.html">Add Church Events</a>
                                     </li>
                                     <li>
-                                        <a href="be_forms_elements_material.html">Material Elements</a>
+                                        <a href="be_forms_elements_material.html">List Church Events</a>
                                     </li>
                                     <li>
-                                        <a href="be_forms_css_inputs.html">CSS Inputs</a>
+                                        <a href="be_forms_css_inputs.html">Event Type</a>
                                     </li>
-                                    <li>
-                                        <a href="be_forms_plugins.html">Plugins</a>
-                                    </li>
-                                    <li>
-                                        <a href="be_forms_editors.html">Editors</a>
-                                    </li>
-                                    <li>
-                                        <a href="be_forms_validation.html">Validation</a>
-                                    </li>
-                                    <li>
-                                        <a href="be_forms_wizard.html">Wizard</a>
-                                    </li>
-                                    <li>
-                                        <a href="be_forms_premade.html">Pre-made</a>
-                                    </li>
+                                    
                                 </ul>
                             </li>
                             <li class="nav-main-heading"><span class="sidebar-mini-visible">BD</span><span class="sidebar-mini-hidden">Build</span></li>
