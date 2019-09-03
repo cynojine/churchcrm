@@ -97,10 +97,14 @@
                                                 <a class="active" href="be_pages_dashboard2.html"><span class="sidebar-mini-hide">Add Members</span></a>
                                             </li>
                                             <li>
-                                                <a href="be_pages_dashboard3.html"><span class="sidebar-mini-hide">Members List</span></a>
+                                                <a href="be_pages_dashboard3.html"><span class="sidebar-mini-hide">Add Family</span></a>
                                             </li>
                                             <li>
-                                                <a href="be_pages_dashboard4.html"><span class="sidebar-mini-hide">Catigories</span></a>
+                                                <a href="be_pages_dashboard4.html"><span class="sidebar-mini-hide">Members List</span></a>
+											
+                                            </li>
+											<li>
+                                                <a href="be_pages_dashboard4.html"><span class="sidebar-mini-hide">Family List</span></a>
                                             </li>
                                         </ul>
                                     </li>
