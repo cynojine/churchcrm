@@ -126,7 +126,7 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="nav-main-heading"><span class="sidebar-mini-visible">Church</span><span class="sidebar-mini-hidden">Attendance</span></li>
+                            <li class="nav-main-heading"><span class="sidebar-mini-visible">Church</span><span class="sidebar-mini-hidden">Menu2</span></li>
                             <li>
                                 <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-puzzle"></i><span class="sidebar-mini-hide">Church Attendance</span></a>
                                 <ul>
@@ -136,16 +136,11 @@
                                     <li>
                                         <a href="be_blocks_tiles.html">List Attendance</a>
                                     </li>
-                                    <li>
-                                        <a href="be_blocks_draggable.html">Draggable</a>
-                                    </li>
-                                    <li>
-                                        <a href="be_blocks_api.html">API</a>
-                                    </li>
+                                   
                                 </ul>
                             </li>
                             <li>
-                                <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-moustache"></i><span class="sidebar-mini-hide">Widgets</span></a>
+                                <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-moustache"></i><span class="sidebar-mini-hide">Menu3</span></a>
                                 <ul>
                                     <li>
                                         <a href="be_blocks_widgets_users.html">Users</a>
