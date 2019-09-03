@@ -140,33 +140,36 @@
                                 </ul>
                             </li>
                             <li>
-                                <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-moustache"></i><span class="sidebar-mini-hide">Menu3</span></a>
+                                <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-moustache"></i><span class="sidebar-mini-hide">Sunday School</span></a>
                                 <ul>
                                     <li>
-                                        <a href="be_blocks_widgets_users.html">Users</a>
+                                        <a href="be_blocks_widgets_users.html">add Sunday School</a>
                                     </li>
                                     <li>
-                                        <a href="be_blocks_widgets_stats.html">Statistics</a>
+                                        <a href="be_blocks_widgets_stats.html">List</a>
                                     </li>
                                 </ul>
                             </li>
                             <li>
-                                <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-energy"></i><span class="sidebar-mini-hide">Elements</span></a>
+                                <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-energy"></i><span class="sidebar-mini-hide">Collections</span></a>
                                 <ul>
                                     <li>
-                                        <a href="be_ui_grid.html">Grid</a>
+                                        <a href="be_ui_grid.html">Add Colection</a>
+                                    </li>
+									 <li>
+                                        <a href="be_ui_icons.html">Collecton List</a>
                                     </li>
                                     <li>
-                                        <a href="be_ui_icons.html">Icons</a>
+                                        <a href="be_ui_icons.html">Add Tith</a>
                                     </li>
                                     <li>
-                                        <a href="be_ui_typography.html">Typography</a>
+                                        <a href="be_ui_typography.html">Tith report</a>
                                     </li>
                                     <li>
-                                        <a href="be_ui_activity.html">Activity</a>
+                                        <a href="be_ui_activity.html">Add Gifts</a>
                                     </li>
                                     <li>
-                                        <a href="be_ui_buttons.html">Buttons</a>
+                                        <a href="be_ui_buttons.html">Gifts Report</a>
                                     </li>
                                     <li>
                                         <a href="be_ui_navigation.html">Navigation</a>
