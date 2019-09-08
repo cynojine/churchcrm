@@ -87,7 +87,7 @@
             <main id="main-container">
 
                 <!-- Hero -->
-                <div class="bg-image" style="background-image: url('assets/media/photos/bg_hero_landing.jpg');">
+                <div class="bg-image" style="background-image: url({{ asset('assets/media/photos/bg_hero_landing.jpg') }});">
         <div class="hero bg-white-op-90 overflow-hidden">
             <div class="hero-inner">
                 <div class="content content-full text-center">
