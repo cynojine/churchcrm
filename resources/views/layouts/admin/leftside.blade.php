@@ -2,7 +2,7 @@
         <div class="modal fade" id="modal-onboarding" tabindex="-1" role="dialog" aria-labelledby="modal-onboarding" aria-hidden="true">
             <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-popout" role="document">
                 <div class="modal-content rounded">
-                    <div class="block block-rounded block-transparent mb-0 bg-pattern" style="background-image: url('assets/media/various/bg-pattern-inverse.png');">
+                    <div class="block block-rounded block-transparent mb-0 bg-pattern" style="background-image: url('asset('assets/media/various/bg-pattern-inverse.png')');">
                         <div class="block-header justify-content-end">
                             <div class="block-options">
                                 <a class="font-w600 text-danger" href="#" data-dismiss="modal" aria-label="Close">

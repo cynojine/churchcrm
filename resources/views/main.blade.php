@@ -87,7 +87,7 @@
             <main id="main-container">
 
                 <!-- Hero -->
-                <div class="bg-image" style="background-image: url('assets/media/photos/bg_hero_landing.jpg');">
+                <div class="bg-image" style="background-image: url('asset('assets/media/photos/bg_hero_landing.jpg')');">
         <div class="hero bg-white-op-90 overflow-hidden">
             <div class="hero-inner">
                 <div class="content content-full text-center">
@@ -95,10 +95,10 @@
                         <h1 class="font-w700 display-4 mt-20 invisible" data-toggle="appear" data-timeout="50">
                                     Church CMS <small class="font-w300 text-primary">1.0</small>
                                 </h1>
-                                <h2 class="h3 font-w300 text-muted mb-50 invisible" data-toggle="appear" data-timeout="150">Manageing your Church never got Easyer .</h2>
+                                <h2 class="h3 font-w300 text-muted mb-50 invisible" data-toggle="appear" data-timeout="150">Managing your Church never got Easier .</h2>
                                 <div class="invisible" data-toggle="appear" data-timeout="300">
                                     
-                                    <a class="btn btn-hero btn-noborder btn-primary min-width-175 mb-10 mx-5" href="/admin">
+                                    <a class="btn btn-hero btn-noborder btn-primary min-width-175 mb-10 mx-5" href="{{ route('admin_login') }}">
                                         <i class="si si-rocket mr-5"></i> Go to Dashboard
                                     </a>
                                 </div>
