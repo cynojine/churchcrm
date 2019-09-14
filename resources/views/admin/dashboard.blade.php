@@ -75,7 +75,7 @@
                     <div class="row row-deck gutters-tiny invisible" data-toggle="appear">
                         <!-- Row #2 -->
                         <div class="col-xl-4">
-                            <a class="block block-transparent bg-image d-flex align-items-stretch" href="javascript:void(0)" style="background-image: url('asset('assets/media/photos/photo24@2x.jpg')');">
+                            <a class="block block-transparent bg-image d-flex align-items-stretch" href="javascript:void(0)" style="background-image: url('assets/media/photos/photo24@2x.jpg');">
                                 <div class="block-content block-sticky-options pt-100 bg-black-op">
                                     <div class="block-options block-options-left text-white">
                                         <div class="block-options-item">
@@ -96,7 +96,7 @@
                             </a>
                         </div>
                         <div class="col-sm-6 col-xl-4">
-                            <a class="block block-transparent bg-image d-flex align-items-stretch" href="javascript:void(0)" style="background-image: url('asset('assets/media/photos/photo32@2x.jpg')');">
+                            <a class="block block-transparent bg-image d-flex align-items-stretch" href="javascript:void(0)" style="background-image: url('assets/media/photos/photo32@2x.jpg');">
                                 <div class="block-content block-sticky-options pt-100 bg-primary-dark-op">
                                     <div class="block-options block-options-left text-white">
                                         <div class="block-options-item">
@@ -117,7 +117,7 @@
                             </a>
                         </div>
                         <div class="col-sm-6 col-xl-4">
-                            <a class="block block-transparent bg-image d-flex align-items-stretch" href="javascript:void(0)" style="background-image: url('asset('assets/media/photos/photo10@2x.jpg')');">
+                            <a class="block block-transparent bg-image d-flex align-items-stretch" href="javascript:void(0)" style="background-image: url('assets/media/photos/photo10@2x.jpg');">
                                 <div class="block-content block-sticky-options pt-100 bg-primary-op">
                                     <div class="block-options block-options-left text-white">
                                         <div class="block-options-item">
@@ -142,7 +142,7 @@
                     <div class="row gutters-tiny invisible" data-toggle="appear">
                         <!-- Row #3 -->
                         <div class="col-xl-8 d-flex align-items-stretch">
-                            <div class="block block-themed block-mode-loading-inverse block-transparent bg-image w-100" style="background-image: url('asset('assets/media/photos/photo34@2x.jpg')');">
+                            <div class="block block-themed block-mode-loading-inverse block-transparent bg-image w-100" style="background-image: url('assets/media/photos/photo34@2x.jpg');">
                                 <div class="block-header bg-black-op">
                                     <h3 class="block-title">
                                         Sales <small>This week</small>

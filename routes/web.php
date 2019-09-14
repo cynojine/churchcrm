@@ -16,12 +16,11 @@ Route::get('/', function () {
     return view('main');
 });
 
-Route::match(['get','post'],'/admin','AdminController@login')->name('admin_login');
+Route::match(['get','post'],'/admin','AdminController@login');
 Route::get('/logout','AdminController@logout');
 Route::group(['middleware' => ['auth']],function(){
-	Route::get('/admin/{user}/dashboard','AdminController@dashboard')->name('dashboard');
-	Route::get('/admin/{user}/settings','AdminController@settings')->name('admin_settings');
-	Route::post('/admin/{user}/settings/post','AdminController@postSettings')->name('post_admin_settings');
+	Route::get('/admin/dashboard','AdminController@dashboard');
+	Route::get('/admin/settings','AdminController@settings');
 	
 	//fafilies route admin
 Route::match(['get','post'],'/admin/add-families','FamiliesController@addFamilies');

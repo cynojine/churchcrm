@@ -229,7 +229,7 @@
                                 <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-globe-alt"></i><span class="sidebar-mini-hide">Settings</span></a>
                                 <ul>
                                     <li>
-                                        <a href="{{ route('admin_settings', $user->id) }}">Settings</a>
+                                        <a href="{{ url('/admin/settings') }}">Settings</a>
                                     </li>
                                     <li>
                                         <a href="be_pages_generic_blank_block.html">Blank (Block)</a>
