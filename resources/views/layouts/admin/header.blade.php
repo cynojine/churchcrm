@@ -112,28 +112,28 @@
                             <ul class="nav-users push">
                                 <li>
                                     <a href="be_pages_generic_profile.html">
-                                        <img class="img-avatar" src="assets/media/avatars/avatar1.jpg" alt="">
+                                        <img class="img-avatar" src="{{ asset('assets/media/avatars/avatar1.jpg') }}" alt="">
                                         <i class="fa fa-circle text-success"></i> Danielle Jones
                                         <div class="font-w400 font-size-xs text-muted">Photographer</div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="be_pages_generic_profile.html">
-                                        <img class="img-avatar" src="assets/media/avatars/avatar9.jpg" alt="">
+                                        <img class="img-avatar" src="{{ asset('assets/media/avatars/avatar9.jpg') }}" alt="">
                                         <i class="fa fa-circle text-success"></i> Justin Hunt
                                         <div class="font-w400 font-size-xs text-muted">Web Designer</div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="be_pages_generic_profile.html">
-                                        <img class="img-avatar" src="assets/media/avatars/avatar8.jpg" alt="">
+                                        <img class="img-avatar" src="{{ asset('assets/media/avatars/avatar8.jpg') }}" alt="">
                                         <i class="fa fa-circle text-warning"></i> Amber Harvey
                                         <div class="font-w400 font-size-xs text-muted">UI Designer</div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="be_pages_generic_profile.html">
-                                        <img class="img-avatar" src="assets/media/avatars/avatar9.jpg" alt="">
+                                        <img class="img-avatar" src="{{ asset('assets/media/avatars/avatar9.jpg') }}" alt="">
                                         <i class="fa fa-circle text-danger"></i> Jack Estrada
                                         <div class="font-w400 font-size-xs text-muted">Copywriter</div>
                                     </a>
